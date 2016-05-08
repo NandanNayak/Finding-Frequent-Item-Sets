@@ -18,6 +18,8 @@ Implementing PCY algorithm using a single hash and print all frequent item sets.
 
 <strong>Note: </strong>In PCY the counts for pairs are stored in form of Triples (e.g. count of pair (“a”,”b”) is stored as (“a”, ”b”, <count>) and it uses 12 bytes.). Similarly, frequent itemsets of size 3 will be stored in form of quadruples taking 16 bytes and so on. The counts in the buckets can vary depending on the hashing function used. So do not try to match this with the output files provided. Also, while finding frequent pairs you should hash all the possible pairs but in finding frequent itemsets of size >= 3, as you know the frequent itemsets of size-1 you can use those and hash only those itemsets whose all possible subsets of size-1 are frequent.
 
+<strong>Sample Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_pcy.txt">sample_output_pcy.txt</a>
+
 A sample solutions is shown below.
 
 <strong>Sample 1:</strong>
@@ -55,6 +57,8 @@ Here for the 1st pass we show the memory used for the item counts, hash table co
 Implementingthe Multi-Stage algorithm to generate frequent itemsets. There are two stages using two different hashing functions for finding frequent itemsets of each size. Usng hashing functions which are independent of each other. Both the hashes will have the same number of buckets. Also while finding frequent pairs, all the possible pairs are hashed but the frequent itemsets of size >= 3, as we know the frequent itemsets of size-1. The counts in the buckets can vary depending on the hashing function used. 
 
 Input parameters are same as above. For output please follow the format shown below:
+
+<strong>Sample Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_multistage.txt">sample_output_multistage.txt</a>
 
 <strong>Sample 1:</strong>
 
@@ -131,5 +135,7 @@ Line 1 (number of iterations performed)
 Line 2 (fraction of transactions used)
 
 Line 3 onwards (frequent itemsets lexicographically sorted)</em>
+
+<strong>Sample Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_toivonen.txt">sample_output_toivonen.txt</a>
 
 
