@@ -18,13 +18,14 @@ Implementing PCY algorithm using a single hash and print all frequent item sets.
 
 <strong>Note: </strong>In PCY the counts for pairs are stored in form of Triples (e.g. count of pair (“a”,”b”) is stored as (“a”, ”b”, <count>) and it uses 12 bytes.). Similarly, frequent itemsets of size 3 will be stored in form of quadruples taking 16 bytes and so on. The counts in the buckets can vary depending on the hashing function used. So do not try to match this with the output files provided. Also, while finding frequent pairs you should hash all the possible pairs but in finding frequent itemsets of size >= 3, as you know the frequent itemsets of size-1 you can use those and hash only those itemsets whose all possible subsets of size-1 are frequent.
 
-<strong>Sample Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_pcy.txt">sample_output_pcy.txt</a>
 
 A sample solutions is shown below.
 
 <strong>Sample 1:</strong>
 
 Executing code:<em><strong>python nayak_nandan_pcy.py input2.txt 3 20</strong>
+
+<strong>Sample Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_pcy.txt">sample_output_pcy.txt</a>
 
 <strong>Output</strong>
 
@@ -58,11 +59,11 @@ Implementingthe Multi-Stage algorithm to generate frequent itemsets. There are t
 
 Input parameters are same as above. For output please follow the format shown below:
 
-<strong>Sample Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_multistage.txt">sample_output_multistage.txt</a>
-
 <strong>Sample 1:</strong>
 
 Executing code:<em><strong>python nayak_nandan_multistage.py input2.txt 2 20</strong></em>
+
+<strong>Sample Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_multistage.txt">sample_output_multistage.txt</a>
 
 <strong>Output</strong>
 <em>
