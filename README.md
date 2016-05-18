@@ -27,7 +27,7 @@ A sample solutions is shown below.
 
 <strong>Executing code</strong>
 
-<em><strong>python nayak_nandan_pcy.py input2.txt 3 20</strong>
+<em>python nayak_nandan_pcy.py input2.txt 3 20</em>
 
 <strong>Sample Output</strong>
 
@@ -64,7 +64,7 @@ Input parameters are same as above. For output please follow the format shown be
 
 <strong>Executing code</strong>
 
-<em><strong>python nayak_nandan_multistage.py input2.txt 2 20</strong></em>
+<em>python nayak_nandan_multistage.py input2.txt 2 20</em>
 
 <strong> Sample Output</strong>
 <em>
@@ -128,8 +128,8 @@ Implementing the Toivonen algorithm to generate frequent itemsets. For this algo
 
 2. Support: Integer that defines the minimum count to qualify as a frequent itemset.
 
-<strong>Executing code
-<em>python nayak_nandan_toivonen.py toivonen_test.txt 20</em></strong>
+<strong>Executing code</strong>
+<em>python nayak_nandan_toivonen.py toivonen_test.txt 20</em>
 
 <strong>Output:</strong>
 <em>
