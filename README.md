@@ -31,17 +31,14 @@ A sample solutions is shown below.
 
 <strong>Sample Output</strong>
 
-memory for item counts: 48
+<em>memory for item counts: 48
 
 memory for hash table counts for size 2 itemsets: 80
 
 {0: 0, 1: 2, 2: 0, 3: 2, 4: 2, 5: 3, 6: 2, 7: 1, 8: 1, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0}
 
 frequent item sets of size 1 :  [['e']]
-<p>
-</p>
-<p>
-</p>
+
 PASS : 2
 
 memory for frequent itemsets of size 1 : 8
@@ -129,6 +126,7 @@ Implementing the Toivonen algorithm to generate frequent itemsets. For this algo
 2. Support: Integer that defines the minimum count to qualify as a frequent itemset.
 
 <strong>Executing code</strong>
+
 <em>python nayak_nandan_toivonen.py toivonen_test.txt 20</em>
 
 <strong>Output:</strong>
