@@ -25,9 +25,9 @@ Implementing PCY algorithm using a single hash and printing all frequent item se
 
 A sample solutions is shown below.
 
-<strong>Sample 1:</strong>
+<strong>Executing code</strong>
 
-Executing code:<em><strong>python nayak_nandan_pcy.py input2.txt 3 20</strong>
+<em><strong>python nayak_nandan_pcy.py input2.txt 3 20</strong>
 
 <strong>Sample Output</strong>
 
@@ -62,9 +62,9 @@ Implementingthe Multi-Stage algorithm to generate frequent itemsets. There are t
 
 Input parameters are same as above. For output please follow the format shown below:
 
-<strong>Sample 1:</strong>
+<strong>Executing code</strong>
 
-Executing code:<em><strong>python nayak_nandan_multistage.py input2.txt 2 20</strong></em>
+<em><strong>python nayak_nandan_multistage.py input2.txt 2 20</strong></em>
 
 <strong> Sample Output</strong>
 <em>
@@ -128,7 +128,8 @@ Implementing the Toivonen algorithm to generate frequent itemsets. For this algo
 
 2. Support: Integer that defines the minimum count to qualify as a frequent itemset.
 
-Executing code: <strong><em>python nayak_nandan_toivonen.py toivonen_test.txt 20</em></strong>
+<strong>Executing code
+<em>python nayak_nandan_toivonen.py toivonen_test.txt 20</em></strong>
 
 <strong>Output:</strong>
 <em>
