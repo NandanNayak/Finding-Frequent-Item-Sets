@@ -6,28 +6,25 @@ The main aim of the project is to <strong>find frequent item sets</strong> in an
 
 In this Project, 3 different algorithms are implemented to find frequent item-sets namely <strong>Park-Chen-Yu (PCY), Multi-Stage hashing and Toivonen</strong>. The transactions are given as an input file - <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/input.txt">input.txt</a>.
 
-
-
 ###Problem 1: PCY Algorithm and Execution
 
 Implementing PCY algorithm using a single hash and printing all frequent item sets. Each letter(alphabet) is assigned a value. The hash function calculates the sum of the values for pairs and so on and takes the mod with respect to the bucket size.
+
+A sample solution is shown below.
+
+<strong>Executing code</strong>
+
+<em>python nayak_nandan_pcy.py input2.txt 3 20</em>
 
 <strong>Input Parameters:</strong>
 
 1. <em>Input.txt</em>: This is the input file containing all transactions. Each line corresponds to a transaction. Each transaction has items that are comma separated. 
 
-2. <em>Support</em>: Integer that defines the minimum count to qualify as a frequent itemset.
+2. <em>Support (3)</em>: Integer that defines the minimum count to qualify as a frequent itemset.
 
-3. <em>Bucket size</em>: This is the size of the hash table.
+3. <em>Bucket size (20)</em>: This is the size of the hash table.
 
 <strong>Output</strong>: The output contains the frequent itemsets generated in each pass sorted lexicographically. It contains information about the memory usage during each pass over the data along with the hash buckets and their counts (Assume each count takes 4 bytes).
-
-
-A sample solutions is shown below.
-
-<strong>Executing code</strong>
-
-<em>python nayak_nandan_pcy.py input2.txt 3 20</em>
 
 <strong>Sample Output</strong>
 
