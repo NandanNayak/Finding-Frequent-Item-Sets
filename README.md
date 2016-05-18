@@ -53,7 +53,7 @@ Here for the 1st pass we show the memory used for the item counts, hash table co
 
 <strong>Complete Output: </strong> <a href="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/sample_output_multistage.txt">output_multistage.txt</a>
 
-###Problem 2: Multi-Stage Algorithm
+###Problem 2: Multi-Stage Hashing Algorithm
 
 Implementingthe Multi-Stage algorithm to generate frequent itemsets. There are two stages using two different hashing functions for finding frequent itemsets of each size. Usng hashing functions which are independent of each other. Both the hashes will have the same number of buckets. Also while finding frequent pairs, all the possible pairs are hashed but the frequent itemsets of size >= 3, as we know the frequent itemsets of size-1. The counts in the buckets can vary depending on the hashing function used. 
 
