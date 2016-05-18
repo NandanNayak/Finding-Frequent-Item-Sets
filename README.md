@@ -8,9 +8,10 @@ In this Project, 3 different algorithms are implemented to find frequent item-se
 
 ###Problem 1: PCY Algorithm and Execution
 
+<strong>Implementation</strong>
 Implementing PCY algorithm using a single hash and printing all frequent item sets. Each letter(alphabet) is assigned a value. The hash function calculates the sum of the values for pairs and so on and takes the mod with respect to the bucket size.
 
-A sample solution is shown below.
+<img src="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/PCY_Memory_Image.JPG" />
 
 <strong>Executing code</strong>
 
@@ -52,7 +53,11 @@ Here for the 1st pass we show the memory used for the item counts, hash table co
 
 ###Problem 2: Multi-Stage Hashing Algorithm
 
-Implementingthe Multi-Stage algorithm to generate frequent itemsets. There are two stages using two different hashing functions for finding frequent itemsets of each size. Usng hashing functions which are independent of each other. Both the hashes will have the same number of buckets. Also while finding frequent pairs, all the possible pairs are hashed but the frequent itemsets of size >= 3, as we know the frequent itemsets of size-1. The counts in the buckets can vary depending on the hashing function used. 
+<strong>Implementation</strong>
+
+Implementing the Multi-Stage algorithm to generate frequent itemsets. There are two stages using two different hashing functions for finding frequent itemsets of each size. Usng hashing functions which are independent of each other. Both the hashes will have the same number of buckets. Also while finding frequent pairs, all the possible pairs are hashed but the frequent itemsets of size >= 3, as we know the frequent itemsets of size-1. The counts in the buckets can vary depending on the hashing function used. 
+
+<img src="https://github.com/NandanNayak/Finding-Frequent-Item-Sets/blob/master/Multistage_Memory_Image.JPG" />
 
 Input parameters are same as above. For output please follow the format shown below:
 
